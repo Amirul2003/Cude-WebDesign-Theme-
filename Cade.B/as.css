@@ -1,0 +1,648 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  *{
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  
+  /*Navbar*/
+  
+  .navbar-nav a{
+     margin: 10px;
+     font-size: 18px;
+     color: white;
+   
+  }
+  
+  @media only screen and (max-width: 840px) {
+    .navbar-nav a {
+      font-size: 16px;
+    }
+  }
+  
+  .navbar-nav a:hover{
+    color: white;
+    background-color: #643A79;
+    border-radius: 5px;
+  }
+  
+  .nav-colo{
+      background-color: #87509C;
+  }
+  
+/*Image--Section*/
+.bg-hader-color{
+    background-color: #87509C;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 1496px) {
+    .bg-hader-color {
+      width: 100%;
+      height: 750px;
+    }
+  }
+  .home-btn .btn-shop{
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   transform: translate(-50%,-0%);
+   text-align: center;
+   font-size: 16px;
+   border: none;
+   color: #fff;
+   font-weight: 400;
+   padding: 15px 80px;
+   background-color: #eb7d4d;
+   border-bottom: #c86a43 solid 5px;
+  }
+  .home-btn .btn-shop:hover{
+    background-color: #17c2a4;
+    border-bottom: #1d9b85 solid 5px;
+  }
+  .home-btn .btn-shop{
+   margin-top: 20px;
+  }
+
+  @media only screen and (max-width: 511px) {
+    .home-btn .btn-shop{
+    font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 431px) {
+    .home-btn .btn-shop{
+     padding: 0px 30px;
+    }
+  }
+
+  @media only screen and (max-width: 475px) {
+    .home-btn .btn-shop{
+       padding:20px 50px;
+       font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 391px) {
+    .home-btn .btn-shop{
+       padding:10px 30px;
+       font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 311px) {
+    .home-btn .btn-shop{
+      padding:8px 15px;
+      font-size: 13px;
+   }
+    .bg-hader-color{
+        height: 950px;
+    }
+
+  }
+  
+  .info{
+    margin-top: 15%;
+  transform: translateY(15%);
+  
+  }
+  
+  .info p{
+    font-size:2.2em;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  /*SERVICES WE  CARD*/
+  .bg-color-section{ 
+    background-color:#17C2A4 ;
+  }
+  
+  .h1{
+      margin-top: -40px;
+      color: #14A58C;
+  }
+
+  .image-design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    transition: .3s;
+  }
+  .image-design:hover{
+    transform: rotateZ(-20deg);
+  }
+
+  .image-position{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 73%;
+    transition: .3s;
+  }
+  .image-position:hover{
+      transform: rotateZ(-20deg);
+  }
+  .image-titel{
+      color: #fff;   
+  }
+
+  .image-titel:hover{
+     color: black;
+  }
+
+  .position-color{
+      color: white;
+  }
+
+  .position-color:hover{
+    color: black;
+  }
+
+  .image-cad{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    transition: .3s;
+  }
+
+  .image-cad:hover{
+      transform: rotateZ(-20deg);
+  }
+  .image-color{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    transition: .3s;
+  }
+
+  .image-color:hover{
+    transform:rotateZ(-20deg)
+  }
+  
+  @media only screen and (max-width: 988px) {
+    .image-titel{
+       font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width:767px) {
+    .image-design{
+      width: 25%;
+    }
+    .image-position{
+      width: 50%;
+    }
+    .image-cad{
+      width: 28%;
+    }
+    .image-color{
+      width: 40%;
+    }
+  }
+ /* SERVICES WE  CARD END*/
+   
+
+
+ /*SERVICES WE PROVIDE*/
+
+  .Services-bg-color{
+    background-color: #E7F1F8;
+  }
+
+  .icon-item{
+    font-size: 13px;
+    background-color: #CCCCCC;
+    color: #888;
+    padding: 10px;
+    border-radius: 100%;
+    transition: .5s;
+  }
+  .icon-item:hover{
+    background-color: #3C5499;
+    color: #fff;
+    transform: rotate(360deg);
+  }
+  .titel-color{
+    color: #82BAE7;
+  }
+  
+ .img-section{
+   border-radius: 100%;
+   padding: 10px;
+   background: #696969;
+   height: auto;
+   width: 68px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .respons-item{
+   display: flex;
+   margin-left: 30px;
+ }
+
+ .icon-item{
+   margin: 5px;
+ }
+ @media only screen and (max-width: 1199px) {
+  .respons-item{
+   margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .respons-item{
+   margin-left: 55px;
+   margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .respons-item{
+  margin-bottom: 20px;
+  margin-left: 140px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .respons-item{
+  margin-left: 130px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .respons-item{
+  margin-left: 110px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .respons-item{
+  margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .respons-item{
+  margin-left: 60px;
+  }
+  .icon-item{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .respons-item{
+   margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .respons-item{
+   margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 285px) {
+  .titel-cad h1{
+    margin-left: -20px;
+    font-size: 25px;
+   text-align: center;
+  }
+  .titel-cad p{
+    margin-left: -20px;
+  }
+
+  .respons-item{
+    margin-left: 10px;
+   }
+}
+
+
+/*SERVICES WE PROVIDE END*/
+
+ /*WE GOT SKILLS*/
+ .color-border {
+  color: #DFE8ED;
+}
+
+.Skills-bg-color{
+background-color:#fff ;
+}
+
+@media only screen and (max-width: 990px) {
+  .item-left-respons {
+   margin-left: 50px;
+  }
+  .titel-left-respons {
+    margin-left: 100px;
+   }
+   .item-center-respons {
+    margin-left: 20px;
+   }
+   .titel-center-respons {
+    margin-left: 45px;
+   }
+   .item-respons-right {
+    margin-left: -10px;
+   }
+   .item-respons-left {
+    margin-left: -60px;
+   }
+   .titel-respons-left {
+    margin-left: -60px;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+  .item-left-respons {
+   margin-left: 0px;
+   margin-top: 20px;
+  }
+  .titel-left-respons {
+    margin-left: 0px;
+   }
+   .item-center-respons {
+    margin-left: 0px;
+    margin-top: 20px;
+   }
+   .titel-center-respons {
+    margin-left: 0px;
+   }
+   .item-respons-right {
+    margin-left: 0px;
+    margin-top: 20px;
+   }
+   .item-respons-left {
+    margin-left: 0px;   
+   }
+   .titel-respons-left {
+    margin-left: 0px;
+   }
+}
+
+@media only screen and (max-width: 250px) {
+  .skills-respons{
+    margin-left: -30px;
+  }
+  .color-border{
+    margin-left: -30px;
+  }
+  .item-respons-left {
+   margin-left: -20px;
+  }
+  .item-respons-right{
+    margin-left: -20px;
+  }
+  .item-center-respons{
+    margin-left: -20px;
+  }
+  .item-left-respons{
+    margin-left: -20px;
+  } 
+}
+
+/*WE GOT SKILLS  END*/
+
+
+/*OUR PORTFOLIO*/
+.bg-color-portfolio{
+  background-color: #FFDD99;
+}
+.item-ditailes{
+  width: 100%;
+}
+
+.item-mano{
+  text-align: center;
+  margin: 20px auto;
+}
+
+.item-mano ul li{
+  list-style: none;
+  padding: 6px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 500;
+  color: black;
+  background-color: #EBC985;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+.item-mano ul li.active{
+  background-color: #EBC985 ;
+  color: white;
+  border: 0;
+}
+.boder-clor{
+  color: #E5C37F;
+  margin-top: -40px;
+}
+
+@media only screen and (max-width: 250px) {
+  .our-respons{
+    font-size: 30px;
+  }
+}
+/*OUR PORTFOLIO END*/
+
+/*WHAT POEPLE SAY ABOUT US*/
+
+.bg-color-poeple{
+  background-color: #D74680;
+}
+
+.img-cad-item{
+  border-radius: 50%;
+  padding: 10px;
+  background: #696969;
+  height: auto;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-item-paragrph{
+  margin-left: 80px;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.5;
+}
+
+.text-titel-item{
+  margin-left: 80px;
+  font-size: 1.4em;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.text-paragrph{
+   margin-left: 80px;
+   font-size: 18px;
+   color: #FFDD97;
+   font-family: serif;
+   font-style: italic;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .text-paragrph{
+    margin-left: 50px;
+ }
+ .text-titel-item{
+  margin-left: 50px;
+}
+.text-item-paragrph{
+  margin-left: 50px;
+}  
+}
+
+
+@media only screen and (max-width: 500px) { 
+  .text-paragrph{
+    margin-left: 30px;
+ }
+ .text-titel-item{
+  margin-left: 30px;
+}
+.text-item-paragrph{
+  margin-left: 30px;
+}  
+}
+
+@media only screen and (max-width: 400px) { 
+ 
+  .text-paragrph{
+    margin-left: -70px;
+ }
+ .text-titel-item{
+  margin-left: -70px;
+}
+.text-item-paragrph{
+  margin-top: 120px;
+  margin-left: -70px;
+}  
+}
+
+@media only screen and (max-width: 286px) { 
+ 
+.paragrap-section h1{
+    font-size: 35px;
+ }
+ 
+}
+/*WHAT POEPLE SAY ABOUT US--END*/
+
+
+
+/*GET IN TOUCH*/
+
+.bg-color-git{
+  background-color: #3C5499;
+}
+
+.get-item{
+  color: #273A71;
+}
+
+
+ .btn-item a{
+     font-weight: bold;
+     background: #32BAE7;
+     margin-top: 30px;
+     color: #fff;
+     padding: 20px 80px;
+ }
+ 
+ .btn-item a:hover{
+   color: black;
+   background-color: white;
+ }
+
+ @media only screen and (max-width: 300px) {
+  .btn-item a{
+    padding: 20px 40px;
+    margin-left: -20px;
+  }
+}
+ /*GET IN TOUCH--END*/
+
+ /*SOCIAL-ICON*/
+ .social-icon{
+  background-color: #344B8E;
+  padding: 30px;
+  
+}
+
+.icon a{
+  color: white;
+}
+
+.icon a:hover{
+  color: white;
+}
+/*SOCIAL-ICON --END*/
+
+
+/* SOCIAL-TEXT*/
+.social-text{
+   font-size: 12px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.text-social{
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ 
+}
+ 
+/*SOCIAL-TEXT--END*/
+
+
+  /*Up*/
+  .top-up-icon{
+       position: fixed;
+       width: 50px;
+       height: 50px;
+       background-color: green;
+       bottom: 40px;
+       right: 50px;
+       text-decoration: none;
+       text-align: center;
+       line-height: 50px;
+       color: white;
+       font-size: 22px;
+       border-radius: 10px;
+  }
+  .top-up-icon:hover{
+      color: white;
+  }
+
+ /*Up--END*/
+  
+
+
+
+  
+  
+  
+  
+  
